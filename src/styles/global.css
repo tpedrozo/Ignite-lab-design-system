@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+.logo {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
